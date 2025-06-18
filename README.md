@@ -309,6 +309,4 @@ module_init(simple_module_init);
 module_exit(simple_module_exit);
 ```
 
-![Screenshot from 2025-06-18 16-52-28.png](:/1c0b4d47156246c1a798e63169ecde4d)
-
 Durant ce TP, nous avons rencontré plusieurs difficultés à comprendre clairement la différence entre compiler un module pour la machine virtuelle et pour la carte cible ARM. Nous avons souvent mélangé les fichiers et les Makefiles, ce qui a provoqué des erreurs répétées au moment d'insérer les modules sur la carte (par exemple « Invalid module format »). Nous avons passé énormément de temps à essayer de déboguer ces problèmes sans toujours réussir à avancer autant que nous l'aurions voulu. Malgré ces difficultés, nous avons compris progressivement les erreurs commises, mais nous n’avons malheureusement pas pu terminer intégralement le TP.
