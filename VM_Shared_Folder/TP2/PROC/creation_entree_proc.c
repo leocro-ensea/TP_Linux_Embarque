@@ -4,8 +4,8 @@
 #include <linux/proc_fs.h>
 #include <linux/uaccess.h>
 
-MODULE_AUTHOR("Claire");
-MODULE_DESCRIPTION("Un module simple pour écrire dans le journal du noyau");
+MODULE_AUTHOR("Léonard");
+MODULE_DESCRIPTION("Creation entree proc");
 MODULE_SUPPORTED_DEVICE("Tous");
 MODULE_LICENSE("GPL");
 

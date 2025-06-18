@@ -1,0 +1,1 @@
+cmd_/home/ensea/src/TP2/PROC/creation_entree_proc.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000 -T /usr/src/linux-headers-4.19.0-6-common/scripts/module-common.lds  --build-id  -o /home/ensea/src/TP2/PROC/creation_entree_proc.ko /home/ensea/src/TP2/PROC/creation_entree_proc.o /home/ensea/src/TP2/PROC/creation_entree_proc.mod.o ;  true
